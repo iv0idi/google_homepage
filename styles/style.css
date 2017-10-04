@@ -9,6 +9,53 @@ li {
 }
 
 li a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    opacity: 0.75;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    text-align: right;
+    text-decoration: none;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    vertical-align: middle;
+    white-space: nowrap;
     display: block;
-    padding: 10px
+    text-decoration: none;
+    padding: 5px;
+}
+
+input[type="text"] {
+    width: 500px;
+    border-radius: none;
+}
+
+#nav_bar_div {
+    height: 30px;
+}
+
+#img_div {
+}
+
+#form_div {
+}
+
+#footer_div_bg {
+    background: #efefef;
+    height: 35px;
+    margin: 0;
+}
+
+.search_buttons {
+    font-family: arial, sans serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: #efefef;
+    height: 40px;
+    width: 130px;
 }
